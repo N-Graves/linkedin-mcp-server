@@ -7,7 +7,7 @@ MIT licensed.
 ## Install
 
 ```bash
-npm install -g @nasdigital/linkedin-mcp
+npm install -g @nasdigitaluk/linkedin-mcp
 ```
 
 ## Configuration
@@ -98,7 +98,7 @@ SMOKE_ENV='{"LINKEDIN_ACCESS_TOKEN":"x"}' npm run smoke   # real MCP over stdio
 
 ## Built on
 
-[`@nasdigital/mcp-server-core`](https://github.com/N-Graves/mcp-server-core).
+[`@nasdigitaluk/mcp-server-core`](https://github.com/N-Graves/mcp-server-core).
 
 ## Licence
 
