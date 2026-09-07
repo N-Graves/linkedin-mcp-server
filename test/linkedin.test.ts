@@ -2,7 +2,7 @@ import { describe, it, expect } from "vitest";
 import { mkdtempSync, writeFileSync, rmSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
-import { HttpClient } from "@nasdigital/mcp-server-core";
+import { HttpClient } from "@nasdigitaluk/mcp-server-core";
 import { buildTools, DEFAULT_LINKEDIN_VERSION } from "../src/tools.js";
 
 const json = (body: unknown, init: ResponseInit = {}) =>

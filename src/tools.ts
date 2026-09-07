@@ -7,7 +7,7 @@ import {
   ToolError,
   boundedText,
   type ToolDefinition,
-} from "@nasdigital/mcp-server-core";
+} from "@nasdigitaluk/mcp-server-core";
 
 /**
  * LinkedIn requires a YYYYMM version header on every /rest/* call and retires
